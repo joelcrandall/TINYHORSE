@@ -35,12 +35,24 @@
 .offcanvas-body {
     padding: 0;
 }
-.nav-link:hover {
+.nav-link:hover, .active{
     color: white;
     text-decoration: underline #ce6451 2px;
     text-underline-offset: 20px;
 }
 
+#footer img {
+    width: 200px;
+}
+#footer h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.copyright {
+    font-size: 11px;
+    color: #5c7c91;
+
+}
 @media (max-width: 768px) {
 .nav-link:hover{
     text-decoration: none;
