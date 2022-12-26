@@ -1,5 +1,5 @@
 .navbar {
-    padding: 0 40px;
+    padding: 0 75px;
     font-size: smaller;
 }
 .navbar-nav {
@@ -52,6 +52,10 @@
     color: #5c7c91;
 
 }
+footer {
+    padding: 0px 75px !important;
+}
+
 @media (max-width: 768px) {
 .nav-link:hover{
     text-decoration: none;
