@@ -1,4 +1,103 @@
 .bgImage {
     background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg);
     background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.bgImage .container {
+    vertical-align: middle;
+}
+.message {
+    font-size: 60px;
+    font-family: big-caslon-fb,serif;
+    width: 60%;
+    color: rgb(244, 234, 233);
+    margin-bottom: 50px;
+}
+.line {
+    width:50px;
+    border-color:#ffffff;
+    border-top-style: solid;
+    border-top-width: 2px;
+    color: rgba(0, 0, 0, 0);
+}
+#accent-section {
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    height: 50px;
+}
+
+.locations {
+    background-color: #f4eae9;
+    padding: 50px;
+}
+.locations p {
+    font-weight: bold;
+}
+.locations h2, .form h2{
+    font-family: big-caslon-fb,serif;
+    font-size: 32px;
+    padding: 24px 0px;
+}
+
+.form {
+    padding: 50px;
+}
+.form input, .form textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 13px;
+    color: #3c3d40;
+    background-color: #ebebeb;
+    border: none !important;
+    font-family: big-caslon-fb,serif;
+}
+
+.form label {
+    color: #212326;
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+.form .row {
+    margin-bottom: 20px;
+}
+.form button {
+    box-sizing: content-box;
+    padding: 16px 20px;
+    height: 16px;
+    width: 208px;
+    border: solid 1px;
+    background-color: white;
+    font-size: 14px;
+    color: #3c3d40;
+    margin-left: 12px;
+}
+.form button:hover {
+    animation: invert 0.5s forwards;
+}
+.row {
+    padding: 0 50px;
+}
+.space {
+    padding-top: 25px;
+}
+@keyframes invert{
+    0% {
+        background-color: white;
+        color: #3c3d40;
+    }
+    100% {
+        background-color: #3c3d40;
+        color: white;
+    }
+}
+
+@media (max-width: 768px) {
+.message {
+    font-size: 44px;
+    width: 100%;
+}
 }
