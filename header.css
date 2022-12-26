@@ -20,7 +20,6 @@
 .dropdown-item {
     --bs-dropdown-link-color: white;
     padding: 1em;
-    font-size: smaller;
 }
 .dropdown-item:hover {
     color: white;
