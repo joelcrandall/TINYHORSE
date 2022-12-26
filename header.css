@@ -16,6 +16,9 @@
 .dropdown-menu li{
     padding: 0 !important;
 }
+.nav-link {
+    color: white !important;
+}
 
 .dropdown-item {
     --bs-dropdown-link-color: white;
