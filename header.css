@@ -31,10 +31,7 @@
 }
 .navbar-nav li {
     padding: 0 5px;
-}
-.offcanvas-body {
-    padding: 0;
-}
+} 
 .nav-link:hover, .active{
     color: white;
     text-decoration: underline #ce6451 2px;
@@ -56,6 +53,26 @@
 @media (max-width: 768px) {
 .nav-link:hover{
     text-decoration: none;
+
+}
+.nav-item:hover {
     background-color: #5c7c91;
 }
+
+.active {
+    text-decoration: none;
+}
+.navbar-nav {
+    font-size: 16px;
+    height: 100%;
+    padding: 0px !important;
+    justify-content: center !important;
+}
+.nav-item a{
+    padding: 15px 50px;
+}
+.offcanvas-body {
+    padding: 0px;
+}
+
 }
