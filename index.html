@@ -7,10 +7,13 @@
     <title>Landing Page</title>
     <!-- stylesheets-->
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 </head>
 <body>
-    <!--Start of Header-->
+  <!--Start of Header-->
   <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark ">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img height="44" width="100"
@@ -62,6 +65,110 @@
   </nav>
   <!--End of Header-->
 
+  <div class="d-flex flex-column mb-3">
+    <!-- main text with background image-->
+    <div class="p-2 flex-grow-1" id="maintxt">
+      <h2>Rooted in the intersection of brand and entertainment,
+      we build audiences and move people by creating for what's next</h2>
+      <h2>___</h2>
+    </div>
+    <!-- sponsor icon scoll bar-->
+    <div class="p-2 landscape" id="carousel">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="carActive">
+                <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/05/tiny-horse-Televisa-v2.png" 
+                class="d-block w-100" alt="sponsor">
+                <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-Viacom.png"
+                class="d-block w-100" alt="sponsor">
+                <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-Walmart.png"
+                class="d-block w-100" alt="sponsor">
+                <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-Walmart.png"
+                class="d-block w-100" alt="sponsor">
+                <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-Walmart.png"
+                class="d-block w-100" alt="sponsor">
+                <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-Walmart.png"
+                class="d-block w-100" alt="sponsor">
+                <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-Walmart.png"
+                class="d-block w-100" alt="sponsor">
+          </div>
+        </div>
+        <div id="scrollBtn">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- divisions link section-->
+    <div class="p-2" id="divSent">
+      <div id="divtxt">
+        <h4>We are three distinct, but interconnected divisions that 
+        support, leverage, and complement each other to create
+        what's next.</h4>
+      </div>
+      <div id="divisionbtn">
+        <div class="d-flex justify-content-evenly">
+          <button href="#">Entertainment</button>
+          <p>Producing and distributing long- and short-form content.</p>
+        </div>
+        <div class="d-flex justify-content-evenly">
+          <button href="#">Agency</button>
+          <p>Amplifying brands through stategy, media, and creative services.</p>
+        </div>
+        <div class="d-flex justify-content-evenly">
+          <button href="#">Brand Partnerships</button>
+          <p>Connecting brands with relevant partners and platforms.</p>
+        </div>
+      </div>
+    </div>
+    <!-- quote display section -->
+    <div class="p-2">
+      <div class="card-group">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">“The best in the game. Tiny Horse is strategic, creative, and actually delivers! They’re obsessed with helping us win.”</p>
+          </div>
+          <div class="card-footer">
+            <strong>LUIS SOTO</strong>
+            <em>HEAD OF DIGITAL TELEVISA</em>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">“Our partnership with Tiny Horse is exceptional. They’ve been instrumental partners working together to navigate the evolving media landscape.”</p>
+          </div>
+          <div class="card-footer">
+            <strong>JULIAN FRANCO</strong>
+            <em>FORMER HEAD OF AVOD, VUDO/WALMART</em>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">“Working with Tiny Horse is a privilege! Their authentic and strategic approach … a new, groundbreaking platform that’s delivering for our brand and making a positive impact for girls around the world!”</p>
+          </div>
+          <div class="card-footer">
+            <strong>TRACY GRAZIANI</strong>
+            <em>JUSTICE</em>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 'Contact' link section-->
+    <div class="d-flex p-2" id="contact">
+      <div>
+        <p>Contact</p>
+        <h5>Let's create together. Contact us.</h5>
+      </div>
+      <img src="https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg"
+        alt="sunset photo with palm trees">
+    </div>
+  </div>
+
+
 
 
 
@@ -105,9 +212,7 @@
   </footer>
 
   <!-- scripts-->
-  <script>
-
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
   <!--End of Footer-->
 </body>
