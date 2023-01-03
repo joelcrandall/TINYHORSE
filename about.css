@@ -1,0 +1,101 @@
+/* NAV BAR CSS*/
+.navbar {
+  padding: 0 40px;
+  font-size: smaller;
+}
+.navbar-nav {
+  --bs-nav-link-color: white;
+  font-family: 'comfortaa', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.dropdown-menu {
+  color: white;
+  background-color:rgb(33,37,41);
+  padding:0;
+  font-size: 1em;
+}
+.dropdown-menu li{
+  padding: 0 !important;
+}
+
+.dropdown-item {
+  --bs-dropdown-link-color: white;
+  padding: 1em;
+  font-size: smaller;
+}
+.dropdown-item:hover {
+  color: white;
+  background-color: #5c7c91;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.navbar-nav li {
+  padding: 0 5px;
+}
+.offcanvas-body {
+  padding: 0;
+}
+.nav-link:hover {
+  color: white;
+  text-decoration: underline #ce6451 2px;
+  text-underline-offset: 20px;
+}
+
+@media (max-width: 768px) {
+.nav-link:hover{
+  text-decoration: none;
+  background-color: #5c7c91;
+}
+}
+
+
+/* BACKGROUND IMAGE CSS */
+.bgImage {
+  background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-strategies.jpg);
+  background-repeat: no-repeat;
+  height: 650px;
+  display: flex;
+  align-items: center;
+}
+.bgImage .container {
+  vertical-align: middle;
+}
+/* ABOUT SECION CSS */
+
+.aboutsection {
+  background-color: rgb(245, 213, 218);
+}
+
+.message {
+  display: flex;
+  font-size: 60px;
+  font-family: big-caslon-fb,serif;
+  width: 50%;
+  color: rgb(244, 234, 233);
+  margin-bottom: 50px;
+  color: white;
+
+}
+
+#accent-section {
+  background-repeat: no-repeat;
+    background-image: url(https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    height: 50px;
+}
+.aboutus {
+  font-size: 14px;
+}
+
+.aboutusparagraph {
+  font-size: 25px;
+  font-family: big-caslon-fb,serif;
+  
+}
+
+#foundingpartners {
+  font-family: big-caslon-fb,serif;
+  display: inline;
+}
