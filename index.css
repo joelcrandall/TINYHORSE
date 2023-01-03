@@ -15,7 +15,7 @@
     width: 100%;
     min-height: 100%;
     padding-top: 88px;
-    padding-left: 150px;
+    padding-left: 200px;
     padding-right: 50px;
     text-size-adjust: 100%;
 }
@@ -143,7 +143,7 @@
 /* quote cards section */
 
 .card-group {
-    padding: 100px 150px 100px 150px;
+    padding: 100px 200px 100px 200px;
 }
 
 div.card {
@@ -203,7 +203,7 @@ div.card-footer {
 #contact div {
     position: absolute;
     color: white;
-    padding-left: 150px;
+    padding-left: 200px;
     padding-top: 50px;
     align-items: center;
     vertical-align: baseline;
@@ -223,8 +223,12 @@ div.card-footer {
 /* navbar and footer styling */
 
 .navbar {
-    padding: 0 75px;
     font-size: smaller;
+    height: 4em;
+}
+
+.navbar div {
+    padding: 0px 125px 0px 200px;
 }
 .navbar-nav {
     --bs-nav-link-color: white;
@@ -234,18 +238,20 @@ div.card-footer {
 .dropdown-menu {
     color: white;
     background-color:rgb(33,37,41);
-    padding:0;
+    padding: 0;
     font-size: 1em;
 }
-.dropdown-menu li{
+.dropdown-menu li a{
     padding: 0 !important;
+    background-color: rgb(33,37,41);
+    color: white;
 }
 .nav-link {
     color: white !important;
 }
 
 .dropdown-item {
-    --bs-dropdown-link-color: white;
+    --bs-dropdown-link-color: rgb(33,37,41);
     padding: 1em;
 }
 .dropdown-item:hover {
@@ -258,26 +264,38 @@ div.card-footer {
 .navbar-nav li {
     padding: 0 5px;
 } 
-.nav-link:hover, .active{
+
+.nav-link:hover, 
+.active,
+#navhome {
     color: white;
     text-decoration: underline #ce6451 2px;
     text-underline-offset: 20px;
 }
 
 #footer img {
-    width: 200px;
+    width: 185px;
 }
 #footer h6{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
+    padding-top: 30px;
 }
 .copyright {
-    font-size: 11px;
+    font-size: 10px;
     color: #5c7c91;
 
 }
 footer {
-    padding: 0px 75px !important;
+    padding: 0px 180px !important;
+}
+
+#footer div {
+    padding: 0 150px;
+}
+
+#location {
+    padding-left: 40px;
 }
 
 @media (max-width: 768px) {
