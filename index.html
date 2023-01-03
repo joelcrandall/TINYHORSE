@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <!-- stylesheets-->
-    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="index.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+      </style>
 </head>
 <body>
   <!--Start of Header-->
@@ -65,12 +74,12 @@
   </nav>
   <!--End of Header-->
 
-  <div class="d-flex flex-column mb-3">
+  <div class="d-flex flex-column">
     <!-- main text with background image-->
-    <div class="p-2 flex-grow-1" id="maintxt">
+    <div class="flex-grow-1" id="maintxt">
       <h2>Rooted in the intersection of brand and entertainment,
       we build audiences and move people by creating for what's next</h2>
-      <h2>___</h2>
+      <span class="line"></span>
     </div>
     <!-- sponsor icon scoll bar-->
     <div class="p-2 landscape" id="carousel">
@@ -104,30 +113,30 @@
       </div>
     </div>
     <!-- divisions link section-->
-    <div class="p-2" id="divSent">
+    <div id="divSent">
       <div id="divtxt">
         <h4>We are three distinct, but interconnected divisions that 
         support, leverage, and complement each other to create
         what's next.</h4>
       </div>
-      <div id="divisionbtn">
-        <div class="d-flex justify-content-evenly">
+      <div class="d-flex" id="divisionbtn">
+        <div class="d-flex">
           <button href="#">Entertainment</button>
           <p>Producing and distributing long- and short-form content.</p>
         </div>
-        <div class="d-flex justify-content-evenly">
+        <div class="d-flex">
           <button href="#">Agency</button>
           <p>Amplifying brands through stategy, media, and creative services.</p>
         </div>
-        <div class="d-flex justify-content-evenly">
+        <div class="d-flex">
           <button href="#">Brand Partnerships</button>
           <p>Connecting brands with relevant partners and platforms.</p>
         </div>
       </div>
     </div>
     <!-- quote display section -->
-    <div class="p-2">
-      <div class="card-group">
+    <div id="quote">
+      <div class="d-flex card-group">
         <div class="card">
           <div class="card-body">
             <p class="card-text">“The best in the game. Tiny Horse is strategic, creative, and actually delivers! They’re obsessed with helping us win.”</p>
@@ -157,23 +166,16 @@
         </div>
       </div>
     </div>
-    <!-- 'Contact' link section-->
-    <div class="d-flex p-2" id="contact">
+<!-- 'Contact' link section-->
+    <div id="contact">
       <div>
-        <p>Contact</p>
+        <p>CONTACT</p>
         <h5>Let's create together. Contact us.</h5>
       </div>
-      <img src="https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg"
-        alt="sunset photo with palm trees">
+      <a href="#"><img src="https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg"
+        alt="sunset photo with palm trees"></a>
     </div>
   </div>
-
-
-
-
-
-
-
 
 
 
@@ -210,6 +212,7 @@
     <div class="container text-bg-dark m-0 p-3"> <span class="copyright">© Copyright 2020 | Tiny Horse | Privacy
         Policy | Legal </span></div>
   </footer>
+
 
   <!-- scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

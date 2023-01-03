@@ -1,6 +1,5 @@
 
 
-
 /* main text block */
 #maintxt {
     display: flex;
@@ -8,37 +7,55 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     color: rgb(244, 234, 233);
-    font-family: big-caslon-fb,serif;
+    font-family: 'Libre Caslon Display', serif;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 818px;
     width: 100%;
     min-height: 100%;
-    min-width: 1024px;
-    top: -100px;
+    padding-top: 88px;
+    padding-left: 150px;
+    padding-right: 50px;
+    text-size-adjust: 100%;
 }
 
 #maintxt h2 {
     display: flex;
-    font-size: 55px;
+    font-size: 64px;
     font-weight: 400;
     width: 800px;
     line-height: 80px;
-    align-self: center;
+    word-spacing: 2px;
+    margin-bottom: 14px;
+    text-align: left;
+    justify-self: flex-start;
+}
+
+.line {
+    display: flex;
+    width: 50px;
+    border-color:#ffffff;
+    border-top-style: solid;
+    border-top-width: 2px;
+    color: rgba(0, 0, 0, 0);
+    justify-self: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px
 }
 
 /* sponser carousel component */
 #carousel {
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     background-image: url("https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg");
     max-width: 100%;
     max-height: 10em;
+}
+
+.carouselExample {
+    padding: 0px 150px 0px 150px;
 }
 
 #carActive {
@@ -52,7 +69,7 @@
 #carousel img {
     display: flex;
     width: 8em;
-    min-height:100px;
+    min-height: 100px;
     overflow: hidden;    
 }
 
@@ -64,59 +81,84 @@
 /* division section + links */
 
 #divSent {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: #f4eae9;
-    font-family: big-caslon-fb,serif;
+    font-family: 'Libre Caslon Display',serif;
     text-align: center;
-    height: 20em;
+    letter-spacing: 1px;
+    text-size-adjust: 100%;
+    padding: 50px;
+
 }
 
-#divSent #divtxt h4 {
-    font-size: 2em;
-    max-width: 87%;
-    padding-bottom: 20px;
-}
 
-#divisionbtn {
+#divtxt {
     display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
+#divtxt h4 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35.2px;
+}
+
+#divisionbtn {
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+}
+
 #divisionbtn div {
-    display: flex;
-    flex-flow: column;
-    margin-left: 50px;
+    flex-flow: column wrap;
 }
 
 #divisionbtn div button {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: -10px;
-    font-size: 2em;
+    justify-content: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
     border:  solid black 2px ;
     background-color: inherit;
+    font-size: 35px;
+    line-height: 35.2px;
+    max-width: 350px;
 }
 
 #divisionbtn div p {
     display: flex;
+    font-family: sans-serif;
     padding-top: 10px;
-    font-size: 0.8rem;
+    font-size: 13.5px;
+    max-width: 350px;
+
 }
 
 
 /* quote cards section */
+
+.card-group {
+    padding: 100px 150px 100px 150px;
+}
+
 div.card {
     border: none;
-    justify-content: space-between;
 }
 
 div.card-body {
-    font-family: big-caslon-fb, serif;
-    font-size: 25px;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 28px;
     line-height: 50px;
+    text-size-adjust: 100%;
+    margin-bottom: 25px;
+    vertical-align: baseline;
+    font-style: none;
+    max-width: 90%;
 }
 
 
@@ -128,39 +170,142 @@ div.card-footer {
     display: flex;
     flex-direction: column;
     align-items: left;
+    align-self: baseline;
     font-family: -macosx, san-serif;
     font-style: normal;
     font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-size-adjust: 100%;
+    vertical-align: baseline;
     background-color: inherit;
-    border-top: 0;
+    border: none;
+    padding-top: 50px;
 }
 
 /* contact section */
 
-div#contact {
-    display: block;
-    height: 500px;
-    width: 10%;
+#contact {
     margin: 0;
     padding: 0;
 }
 
-#contract img {
+#contact a {
     display: flex;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100px;
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    
 }
 
 #contact div {
     position: absolute;
     color: white;
-    width: 50%;
+    padding-left: 150px;
+    padding-top: 50px;
+    align-items: center;
+    vertical-align: baseline;
+    
 }
 
+#contact div h5 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Libre Caslon Display', serif;
+}
 
+#contact div p {
+    padding-bottom: 30px;
+}
+
+/* navbar and footer styling */
+
+.navbar {
+    padding: 0 75px;
+    font-size: smaller;
+}
+.navbar-nav {
+    --bs-nav-link-color: white;
+    font-family: 'comfortaa', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+.dropdown-menu {
+    color: white;
+    background-color:rgb(33,37,41);
+    padding:0;
+    font-size: 1em;
+}
+.dropdown-menu li{
+    padding: 0 !important;
+}
+.nav-link {
+    color: white !important;
+}
+
+.dropdown-item {
+    --bs-dropdown-link-color: white;
+    padding: 1em;
+}
+.dropdown-item:hover {
+    color: white;
+    background-color: #5c7c91;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.navbar-nav li {
+    padding: 0 5px;
+} 
+.nav-link:hover, .active{
+    color: white;
+    text-decoration: underline #ce6451 2px;
+    text-underline-offset: 20px;
+}
+
+#footer img {
+    width: 200px;
+}
+#footer h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.copyright {
+    font-size: 11px;
+    color: #5c7c91;
+
+}
+footer {
+    padding: 0px 75px !important;
+}
+
+@media (max-width: 768px) {
+.nav-link:hover{
+    text-decoration: none;
+
+}
+.nav-item:hover {
+    background-color: #5c7c91;
+}
+
+.active {
+    text-decoration: none;
+}
+.navbar-nav {
+    font-size: 16px;
+    height: 100%;
+    padding: 0px !important;
+    justify-content: center !important;
+}
+.nav-item a{
+    padding: 15px 50px;
+}
+.offcanvas-body {
+    padding: 0px;
+}
+
+}
 
 
 
